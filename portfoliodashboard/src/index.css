@@ -1,0 +1,49 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --lightblue: #A1D6E2;
+  --deepblue: #002C54;
+  --tealblue: #1995AD;
+  --black: #000000;
+}
+
+body {
+  background-color: var(--lightblue);
+  color: var(--deepblue);
+}
+
+.card{
+  background-color: var(--tealblue);
+}
+
+.form-control{
+  background-color: transparent;
+  border: none;
+  border-radius: 0%;
+  border-bottom: 1px solid var(--deepblue);
+}
+
+.form-control::placeholder{
+  color: var(--lightblue);
+}
+.form-control:focus{
+  background-color: transparent;
+  border: none;
+  border-radius: 0%;
+  border-bottom: 1px solid var(--deepblue); 
+}
+.btn{
+  background-color: var(--deepblue);
+  color: var(--lightblue);
+  border: none;
+}
+.btn:hover{
+  background-color: var(--lightblue);
+  color: var(--deepblue);
+}
